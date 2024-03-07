@@ -1,0 +1,38 @@
+#cardContainer {
+    display: flex;
+    overflow-x: auto;
+gap: 3rem;
+width: 100%;
+
+}
+
+#cardContainer:nth-child(1) {
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+#cardContainer > button {
+    min-width: 10rem;
+    height: 5rem;
+
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+    background-color: lightskyblue;
+    border-radius: 2rem;
+    padding: 1rem;
+    min-height: 50rem;
+}
+
+#addCard{
+    height: 2rem;
+}
+li{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
